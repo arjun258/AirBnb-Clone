@@ -157,11 +157,10 @@ header button{
     gap: 10px;
     margin-bottom: 40px;
 }
-.pfp{
-    
-}
+
 .pfimg{
     position: relative;
+    height: 100%;
 }
 .pfimg img{
     width: 50px;
@@ -170,12 +169,12 @@ header button{
     border-radius: 50px;
     right: 0;
     bottom: 0;
-    
+   
 }
 .pfpsvg{
     position: absolute;
     right: 0px;
-    bottom: 40px;
+    bottom: 0px;
 }
 .features{
     margin-top:40px ;
