@@ -1,0 +1,500 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+header{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10;
+    width: 1120px;
+    height: 50px;
+    margin: 6px auto;
+}
+.search{
+    display: flex;
+    width: 300px;
+    height: 48px;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    align-items: center
+}
+.search input{
+    border:none ;
+    margin-left: 10px;
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    outline: none;
+    font-weight: 790;
+}
+.search svg{
+    margin-right: 10px;
+    background-color: #ff385c;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+header button{
+    background-color: white;
+    height: 100%;
+    align-self: center;
+    border: none;
+    font-size: 15px;
+}
+.logo{
+    color: #ff385c;
+    margin-top:8px;
+}
+.other{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 48px;
+    padding: 5px 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.content_head h1{
+    margin-bottom: 8px;
+}
+.content_head{
+    width: 1120px;
+    margin: 1px  auto;
+    
+}
+.content_head h1{
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-weight: 350;
+}
+.content_sub{
+    display: flex;
+    justify-content: space-between;
+}
+.sub1{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.sub2{
+    display: flex;
+    gap: 30px;
+}
+.sub2 a{
+    display: flex;
+}
+.content_sub a {
+    font-size: 13;
+    font-weight: 500;
+    color: black;
+}
+.sub1a,.sub1b{
+    display: flex;
+    gap: 8px;
+}
+.image_head{
+    display: flex;
+    width: 1120px;
+    height: 300px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.image_left{
+    width: 50%;
+    height: 100%;
+    border-right: 10px solid white;
+}
+
+.image_left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.image_right{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    gap: 10px;
+}
+.image_r1,.image_r2{
+    width: 50%;
+    height: 50%;
+}
+.image_right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.details_head{
+    display: flex;
+    font-family: poppins,serif;
+    gap: 50px;
+    
+}
+.left1{
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid lightgray;
+}
+.rooms{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.pfp{
+    
+}
+.pfimg img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+    right: 0;
+    bottom: 0;
+    position: relative;
+}
+.pfpsvg{
+    position: absolute;
+    right: 730px;
+    bottom: 139px;
+}
+.features{
+    margin-top:40px ;
+    border-bottom: 1px solid lightgray;
+}
+.features h3{
+    margin-bottom: 5px;
+}
+.features p{
+    margin-bottom: 13px;
+    color: gray;
+}
+.lastp{
+    padding-bottom: 20px;
+}
+.insurance{
+    margin:30px 0px;
+    border-bottom: 1px solid lightgray;
+}
+.insurance img{
+    width:123px;
+    height: 26px;
+    margin-bottom: 20px;
+}
+.insurance p{
+    margin-bottom: 20px;
+}
+.insurance a{
+    color:black;
+}
+.more{
+    margin-bottom: 40px;
+}
+.sleep h1{
+    font-size: 18.72px;
+    font-weight: 800;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    
+    border-bottom: 1px solid lightgray;
+}
+.first-card{
+    border: 1px solid rgb(221 221 221);
+    padding: 24px;
+    width: 150px;
+    height: 100px;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+.sleep h4{
+    margin-bottom: 10px;
+}
+.sleep p{
+    margin-bottom: 10px;
+}
+.sleep svg{
+    margin-bottom: 10px;
+}
+.right{
+width: 100%;
+}
+.card{
+    width: 372px;
+    height: 461px;
+    border: 0.4px solid rgba(221, 221, 221);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+    position: sticky;
+    top: 80px;
+    scroll-margin-top: 20px;
+    box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.price{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.price_number{
+    font-size: 17.55px;
+    font-weight: 600;
+}
+.price_sub{
+    display: flex;
+    font-weight: 0;
+    color: black;
+    font-size: 13px;
+}
+.price_sub a{
+    color: black;
+}
+.price_sub svg{
+    margin-right: 5px;
+}
+.check_container{
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'poppins',serif;
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+    margin: 20px auto;
+}
+.checkin_head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.checkin{
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 1px auto;
+}
+.checkin p {
+    padding-bottom: 5px;
+}
+.checkout p {
+    padding-bottom: 5px;
+}
+
+.checkout{
+    width: 100%;
+    
+    
+    padding: 10px 8px;
+    margin-left: 180px;
+}
+.guest{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 8px;
+    margin: 1px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guest svg{
+    padding-right: 15px;
+}
+.btn_container{
+    margin: 1px auto;
+    width: 100%;
+}
+.btn{
+    padding: 10px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #ff385c;
+    color: white;
+    outline: none;
+    border: none;
+    height: 47px;
+}
+.warning{
+    margin-top: 30px;
+    margin-left:auto ;
+    margin-bottom: 15px;
+    margin-right: auto;
+    font-size: 13px;
+}
+.summary1,.summary2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 30px;
+}
+.summary2{
+    margin-bottom: 25px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 30px;
+}
+.summary3{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.summary1,.summary2,.summary3{
+    font-size: 15px;
+}
+.summary1 a,.summary2 a,.summary3 a{
+    color: black;
+}
+.homepara a{
+    color:black;
+}
+.homepara p{
+    margin-bottom: 20px;
+}
+.offer_card{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  border-bottom: 1px solid lightgray;
+}
+.subcard{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.subcard p{
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
+}
+.offer_btn{
+        padding: 20px;
+        background-color: transparent;
+        border: 0.5px solid gray;
+        border-radius: 12px;
+        margin-top: 30px;
+        cursor: pointer;
+       
+}
+.subcardLast{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.subcardLast p{
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
+}
+.star_review{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 50px;
+}
+.star_review p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.line{
+    
+        border: 2.5px solid rgb(34, 34, 34,1);
+        width: 152px;
+        margin-right: 10px;
+        border-radius: 10px;
+        margin-left: 200px;
+    
+}
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.one p{
+    color: gray;
+    font-weight: 200;
+}
+.graph_display{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.rating_line{
+    border: 2.5px solid rgb(34, 34, 34,1);
+    width: 152px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+.text_reviews{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom:30px ;
+}
+.text_reviews img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.profile_container p{
+    font-size: 12px;
+}
+.profile_container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 30px 0;
+}
+.name_details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.end_button{
+   margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
