@@ -160,7 +160,7 @@ header button{
 .pfp{
     
 }
-.pfpimg{
+.pfimg{
     position: relative;
 }
 .pfimg img{
@@ -174,8 +174,8 @@ header button{
 }
 .pfpsvg{
     position: absolute;
-     right: 730px;
-    bottom: 170px;
+    right: 0px;
+    bottom: 40px;
 }
 .features{
     margin-top:40px ;
